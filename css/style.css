@@ -1,0 +1,58 @@
+/* Global style */
+*{
+    box-sizing: border-box;
+}
+body{
+    margin: 0;
+    /* padding: 0; */
+}
+.clearfix{
+    /* To fix the border use clear fix  */
+    clear: both;
+}
+.container{
+    max-width: 1170px;
+    /* background: red; */
+    /* to bring the container at middle */
+    margin: 0 auto;
+    border: 1px solid #dedede;
+    padding: 15px;
+}
+
+/* Global style end */
+
+
+
+
+
+/* Header style start */
+.logo{
+    float: left;
+}
+.userarea{
+    /* userarea div will go right with login and signup */
+    float: right;
+
+}
+.userarea a{
+    display: inline-block;
+    padding: 15px 20px;
+    background-color: #72c789;
+    /* to bring the text in the middle */
+    line-height: 40px;
+    color: #fff;
+    font-family: sans-serif;
+    text-decoration: none;
+    border-radius: 5px;
+
+
+}
+.userarea a:hover{
+
+}
+/* Header style end */
+
+
+
+
+
