@@ -251,6 +251,7 @@ img{
 }
 
 
+
 /* Header style end */
 
 
@@ -324,7 +325,27 @@ img{
 .sub-menu>li:hover>.sub-menu{
     display: block !important;
 } 
-
+#menutrigger{
+    width: 40px;
+    height: 23px;
+    margin: 11px;
+    border-bottom: 2px solid #ffffff;
+    border-top: 2px solid #ffffff;
+    position: relative;
+    float: right;
+}
+#menutrigger span {
+    width: 40px;
+    height: 3px;
+    display: inline-block;
+    /* border-bottom: 2px solid #ffffff; */
+    /* border-top: 2px solid #ffffff; */
+    position: absolute;
+    top: 7px;
+    background: white;
+    line-height: 20px;
+    cursor: pointer;
+}
 
 
 /* Menu styling ends here */
@@ -407,6 +428,23 @@ img{
     
     .col-2, .col-3, .col-32, .col-4, .works .col-3{
         width: 100%;
+    }
+    .menu>ul>li{
+        float: none;
+    
+    }
+    .menu li a{
+        width: 100%;
+    }
+    .menu li>.sub-menu{
+        position: initial;
+        padding: 25px;
+    }
+    .menu>ul>li>.sub-menu{
+        display: block;
+    }
+    .sub-menu>li>.sub-menu{
+        display: block!important;
     }
 }
 /* responsive style end */
